@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(151, 148, 148);
+}
+
+.operacao {
+    width: 80px;
+     justify-content: center;
+     justify-items: center;
+     align-items: center;
+    color:rgb(44, 68, 173);
+background-color: black;
+
+}
+.numeros {
+     width: 80px;
+      align-items: center;
+     justify-content: center;
+     justify-items: center;
+    color:aqua;
+background-color: black;
+}
