@@ -57,10 +57,6 @@ number1 = "";
 number2 = "";
 currentnumber = 1;
 }
-/* function textdisplay(a){
-
-document.getElementById("myText").innerHTML = a;
-} */
 function textdisplay(){
 
 document.getElementById("myText").innerHTML = number1 + operacao + number2 + " = " + resul ;
