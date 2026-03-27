@@ -2,30 +2,29 @@ let number1 = "";
 let number2 = "";
 let operacao = "";
 let resul = "";
-currentnumber = 1;
+let currentnumber = 1;
 let operation = 0; // 1=adição; 2=subtração; 3=Multiplicação; 4=Divisão;
 
 
 function soma() {
     operacao = "+";
     textdisplay();
-    resul = number1 + number2;
+    currentnumber = 2;
 }
 function subtracao() {
      operacao = "-";
     textdisplay();
-    resul = number1 - number2;
+   currentnumber = 2;
 }
 function multiplicacao() {
      operacao = "*";
     textdisplay();
-    resul = number1 * number2;
+   currentnumber = 2;
 }
 function divisao() {
     operacao = "/";
     textdisplay();
-    resul = number1 / number2;
-
+    currentnumber = 2;
 }
 
 function enter() {
@@ -154,7 +153,4 @@ function num0(){
     number2 += 0;
     textdisplay(); 
     }
-}
-function StringtoNumber(a){
-    a = parseFloat(a)
 }
