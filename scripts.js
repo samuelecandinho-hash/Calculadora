@@ -28,3 +28,6 @@ function porcentagem () {
 function numeros () {
 
 }
+function display () {
+    
+}
