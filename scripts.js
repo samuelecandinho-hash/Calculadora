@@ -1,3 +1,6 @@
+let number1 = "";
+let number2 = "";
+
 function soma() {
 
 }
@@ -33,10 +36,11 @@ function display () {
 }
 function textdisplay(){
 let ass = 0;
-document.getElementById("myText").innerHTML = ass;
+document.getElementById("myText").innerHTML = number1;
 }
 function num1(){
-    
+    number1 += 1;
+    textdisplay();
 }
 function num2(){
     
