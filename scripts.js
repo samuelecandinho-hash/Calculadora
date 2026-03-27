@@ -11,21 +11,25 @@ function soma() {
     operacao = "+";
     textdisplay();
     currentnumber = 2;
+    operation = 1;
 }
 function subtracao() {
     operacao = "-";
     textdisplay();
    currentnumber = 2;
+   operation = 2;
 }
 function multiplicacao() {
     operacao = "*";
     textdisplay();
    currentnumber = 2;
+   operation = 3;
 }
 function divisao() {
     operacao = "/";
     textdisplay();
     currentnumber = 2;
+    operation = 4;
 }
 
 function enter() {
@@ -61,7 +65,7 @@ function textdisplay(){
 document.getElementById("myText").innerHTML = number1 + operacao + number2 ;
 }
 function num1(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 1;
     textdisplay(number1);
@@ -73,7 +77,7 @@ function num1(){
     }
 }
 function num2(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 2;
     textdisplay(number1);
@@ -85,7 +89,7 @@ function num2(){
     }
 }
 function num3(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 3;
     textdisplay(number1);
@@ -97,7 +101,7 @@ function num3(){
     }
 }
 function num4(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 4;
     textdisplay(number1);
@@ -109,7 +113,7 @@ function num4(){
     }
 }
 function num5(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 5;
     textdisplay(number1);
@@ -121,7 +125,7 @@ function num5(){
     }
 }
 function num6(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 6;
     textdisplay(number1);
@@ -133,7 +137,7 @@ function num6(){
     }
 }
 function num7(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 7;
     textdisplay(number1);
@@ -145,7 +149,7 @@ function num7(){
     }
 }
 function num8(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 8;
     textdisplay(number1);
@@ -157,7 +161,7 @@ function num8(){
     }
 }
 function num9(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 9;
     textdisplay(number1);
@@ -169,7 +173,7 @@ function num9(){
     }
 }
 function num0(){
-    if (currentnumber = 1)
+    if (currentnumber == 1)
     {
     number1 += 0;
     textdisplay(number1);
