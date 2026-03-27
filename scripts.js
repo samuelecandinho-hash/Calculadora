@@ -56,10 +56,6 @@ textdisplay(resul)
 number1 = "";
 number2 = "";
 }
-/* function textdisplay(a){
-
-document.getElementById("myText").innerHTML = a;
-} */
 function textdisplay(){
 
 document.getElementById("myText").innerHTML = number1 + operacao + number2 ;
