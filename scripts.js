@@ -1,29 +1,37 @@
 let number1 = "";
 let number2 = "";
+let operacao = "";
+let resul = "";
 currentnumber = 1;
 
 function soma() {
-    resul = Valor1 + Valor2;
+    operacao = "+";
+    textdisplay();
+    resul = number1 + number2;
 }
 function subtracao() {
-    resul = Valor1 - Valor2;
+     operacao = "-";
+    textdisplay();
+    resul = number1 - number2;
 }
 function multiplicacao() {
-    resul = Valor * Valor2;
+     operacao = "*";
+    textdisplay();
+    resul = number1 * number2;
 }
 function divisao() {
-    resul = Valor1 / Valor2
+    operacao = "/";
+    textdisplay();
+    resul = number1 / number2;
+
 }
 
 function enter() {
 
 }
-function display () {
-    
-}
 function textdisplay(){
 
-document.getElementById("myText").innerHTML = number1;
+document.getElementById("myText").innerHTML = number1 + operacao + number2 ;
 }
 function num1(){
     if (currentnumber = 1)
