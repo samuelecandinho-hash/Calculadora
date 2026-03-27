@@ -20,7 +20,7 @@ function subtracao() {
    operation = 2;
 }
 function multiplicacao() {
-    operacao = "*";
+    operacao += "*";
     textdisplay();
    currentnumber = 2;
    operation = 3;
