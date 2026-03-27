@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+body {
+    background: linear-gradient(0.40turn, #7dc795, #b1ee83, #38da53);
+}
+
+.operacao {
+    width: 80px;
+    color:rgb(44, 68, 173);
+background-color: black;
+
+}
+.numeros {
+     width: 80px;
+      align-items: center;
+    color:aqua;
+background-color: black;
+}
+.calculadora {
+    background-color: rgb(154, 150, 150);
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+=======
 .numero{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -28,4 +55,5 @@
 }
 .flex{
     display: flex;
+>>>>>>> 82b076aa10abd3cac6e0de45e8cbf63e466a99d3
 }
