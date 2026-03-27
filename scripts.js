@@ -2,6 +2,7 @@ let number1 = "";
 let number2 = "";
 currentnumber = 1;
 
+
 function soma() {
     resul = Valor1 + Valor2;
 }
@@ -161,4 +162,7 @@ function num0(){
     number2 += 0;
     textdisplay(); 
     }
+}
+function StringtoNumber(a){
+    a = parseFloat(a)
 }
