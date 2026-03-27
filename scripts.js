@@ -3,7 +3,6 @@ let number2 = "";
 let currentnumber = 1;
 let operacao = "";
 let resul = "";
-let currentnumber = 1;
 let operation = 0; // 1=adição; 2=subtração; 3=Multiplicação; 4=Divisão;
 
 
