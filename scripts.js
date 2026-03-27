@@ -1,6 +1,7 @@
 let number1 = "";
 let number2 = "";
 currentnumber = 1;
+let operation = 0; // 1=adição; 2=subtração; 3=Multiplicação; 4=Divisão;
 
 
 function soma() {
@@ -16,23 +17,6 @@ function divisao() {
     resul = Valor1 / Valor2
 }
 
-function limpar () {
-
-}
-function apagar () {
-
-}
-function ponto () {
-
-}
-function porcentagem () {
-    if (Contagem == 1) {
-        Valor1 = Valor1 / 100;
-    }
-}
-function numeros () {
-
-}
 function enter() {
 
 }
@@ -40,7 +24,7 @@ function display () {
     
 }
 function textdisplay(){
-let ass = 0;
+
 document.getElementById("myText").innerHTML = number1;
 }
 function num1(){
