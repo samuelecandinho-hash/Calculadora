@@ -18,14 +18,29 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
 }
+.displayer{
+    background-color: rgb(127, 255, 212);
+    padding: 36px;
+    margin: 8px;
+}
 .fix{
-    padding-right: 68px;
-    padding-left: 68px;
+    padding-right: 67.5px;
+    padding-left: 67.5px;
 }
 .fix2{
     padding-right: 63px;
     padding-left: 63px;
 }
+.fix3{
+    padding-right: 66.5px;
+    padding-left: 66.5px;
+}
 .flex{
     display: flex;
+}
+.center{
+    align-content: center;
+}
+.master{
+    background-color: brown;
 }
