@@ -3,6 +3,8 @@ let number2 = "";
 let operacao = "";
 let resul = "";
 currentnumber = 1;
+let operation = 0; // 1=adição; 2=subtração; 3=Multiplicação; 4=Divisão;
+
 
 function soma() {
     operacao = "+";
@@ -153,7 +155,6 @@ function num0(){
     textdisplay(); 
     }
 }
-function num0(){
-      number1 += 0;
-    textdisplay();
+function StringtoNumber(a){
+    a = parseFloat(a)
 }
