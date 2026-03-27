@@ -1,21 +1,31 @@
 let number1 = "";
 let number2 = "";
 let currentnumber = 1;
+let operacao = "";
+let resul = "";
 let operation = 0; // 1=adição; 2=subtração; 3=Multiplicação; 4=Divisão;
-let resul = 0;
+
 
 
 function soma() {
-    resul = Valor1 + Valor2;
+    operacao = "+";
+    textdisplay();
+    let currentnumber = 2;
 }
 function subtracao() {
-    resul = Valor1 - Valor2;
+    operacao = "-";
+    textdisplay();
+    let currentnumber = 2;
 }
 function multiplicacao() {
-    resul = Valor * Valor2;
+    operacao = "*";
+    textdisplay();
+    let currentnumber = 2;
 }
 function divisao() {
-    resul = Valor1 / Valor2
+    operacao = "/";
+    textdisplay();
+    let currentnumber = 2;
 }
 
 function enter() {
@@ -23,16 +33,16 @@ number1 = parseFloat(number1);
 number2 = parseFloat(number2);
 switch(operation){
     case 1:
-
+    resul = number1 + number2;
     break;
-    case 1:
-
+    case 2:
+    resul = number1 - number2;
     break;
-    case 1:
-
+    case 3:
+    resul = number1 * number2;
     break;
-    case 1:
-
+    case 4:
+    resul = number1 / number2;
     break;
     default:
     resul = "Error";
@@ -42,12 +52,13 @@ textdisplay(resul)
 number1 = "";
 number2 = "";
 }
-function display () {
-    
-}
-function textdisplay(a){
+/* function textdisplay(a){
 
 document.getElementById("myText").innerHTML = a;
+} */
+function textdisplay(){
+
+document.getElementById("myText").innerHTML = number1 + operacao + number2 ;
 }
 function num1(){
     if (currentnumber = 1)
