@@ -1,21 +1,31 @@
-body {
-    background-color: rgb(151, 148, 148);
+.numero{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin: 8px;
+    background-color: rgb(228,228,0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
 }
-
-.operacao {
-    width: 80px;
-     justify-content: center;
-     justify-items: center;
-     align-items: center;
-    color:rgb(44, 68, 173);
-background-color: black;
-
+.operacao{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin: 8px;
+    background-color: rgb(111, 199, 130);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
 }
-.numeros {
-     width: 80px;
-      align-items: center;
-     justify-content: center;
-     justify-items: center;
-    color:aqua;
-background-color: black;
+.fix{
+    padding-right: 68px;
+    padding-left: 68px;
+}
+.fix2{
+    padding-right: 63.5px;
+    padding-left: 63.5px;
+}
+.flex{
+    display: flex;
 }
