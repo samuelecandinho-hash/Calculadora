@@ -1,35 +1,43 @@
 let number1 = "";
 let number2 = "";
 let currentnumber = 1;
-let operacao = "";
 let resul = "";
 let operation = 0; // 1=adição; 2=subtração; 3=Multiplicação; 4=Divisão;
+let number2resetter = 0;
 
 
 
 function soma() {
-    operacao = "+";
-    textdisplay();
+    if (currentnumber == 1)
+    {
+    textdisplay("+");
     currentnumber = 2;
     operation = 1;
+    }
 }
 function subtracao() {
-    operacao = "-";
-    textdisplay();
-   currentnumber = 2;
-   operation = 2;
+    if (currentnumber == 1)
+    {
+    textdisplay("-");
+    currentnumber = 2;
+    operation = 2;
+    }
 }
 function multiplicacao() {
-    operacao = "*";
-    textdisplay();
-   currentnumber = 2;
-   operation = 3;
+    if (currentnumber == 1)
+    {
+    textdisplay("*");
+    currentnumber = 2;
+    operation = 3;
+    }
 }
 function divisao() {
-    operacao = "/";
-    textdisplay();
+    if (currentnumber == 1)
+    {
+    textdisplay("/");
     currentnumber = 2;
     operation = 4;
+    }
 }
 
 function enter() {
@@ -53,10 +61,11 @@ switch(operation){
     break;
 }
 textdisplay(resul);
-resul = toString(resul);
 number1 = resul;
-number2 = "";
+number1 = number1.toString();
+textdisplay(number1);
 currentnumber = 1;
+number2resetter = 1;
 }
 /* function textdisplay(a){
 
@@ -68,6 +77,11 @@ function textdisplay(a){
     }
 }
 function num1(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 1;
@@ -80,6 +94,11 @@ function num1(){
     }
 }
 function num2(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 2;
@@ -92,6 +111,11 @@ function num2(){
     }
 }
 function num3(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 3;
@@ -104,6 +128,11 @@ function num3(){
     }
 }
 function num4(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 4;
@@ -116,6 +145,11 @@ function num4(){
     }
 }
 function num5(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 5;
@@ -128,6 +162,11 @@ function num5(){
     }
 }
 function num6(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 6;
@@ -140,6 +179,11 @@ function num6(){
     }
 }
 function num7(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 7;
@@ -152,6 +196,11 @@ function num7(){
     }
 }
 function num8(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 8;
@@ -164,6 +213,11 @@ function num8(){
     }
 }
 function num9(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 9;
@@ -176,6 +230,11 @@ function num9(){
     }
 }
 function num0(){
+    if (number2resetter == 1)
+    {
+        number2resetter = 0;
+        number2 = "";
+    }
     if (currentnumber == 1)
     {
     number1 += 0;
@@ -185,5 +244,17 @@ function num0(){
     {
     number2 += 0;
     textdisplay(number2); 
+    }
+}
+function dot(){
+    if (currentnumber == 1)
+    {
+    number1 += ".";
+    textdisplay(number1);
+    }
+    else
+    {
+    number2 += ".";
+    textdisplay(); 
     }
 }

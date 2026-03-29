@@ -7,6 +7,7 @@
     background-color: rgb(228,228,0);
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
+    border-radius: 8px;
 }
 .operacao{
     padding-top: 32px;
@@ -17,12 +18,18 @@
     background-color: rgb(111, 199, 130);
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
+    border-radius: 8px;
+}
+.enter{
+    padding-right: 223px;
+    padding-left: 223px;
 }
 .displayer{
     background-color: rgb(127, 255, 212);
-    padding: 36px;
+    padding: 48px;
     margin: 8px;
     font-size: 32px;
+    border-radius: 8px;
 }
 .fix{
     padding-right: 67.5px;
@@ -36,8 +43,15 @@
     padding-right: 66.5px;
     padding-left: 66.5px;
 }
+.fix4{
+    padding-right: 68px;
+    padding-left: 68px;
+}
 .flex{
     display: flex;
+}
+.block{
+    display: block;
 }
 .master{
     background-color: brown;

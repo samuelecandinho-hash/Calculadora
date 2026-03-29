@@ -52,7 +52,7 @@ switch(operation){
     resul = "Error";
     break;
 }
-textdisplay()
+textdisplay(resul)
 number1 = "";
 number2 = "";
 currentnumber = 1;
@@ -181,3 +181,4 @@ function num0(){
     textdisplay(); 
     }
 }
+
