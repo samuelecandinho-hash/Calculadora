@@ -67,10 +67,6 @@ textdisplay(number1);
 currentnumber = 1;
 number2resetter = 1;
 }
-/* function textdisplay(a){
-
-document.getElementById("myText").innerHTML = a;
-} */
 function textdisplay(a){
     if (a != ""){
         document.getElementById("myText").innerHTML = a;
